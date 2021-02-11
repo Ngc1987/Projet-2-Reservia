@@ -1,0 +1,74 @@
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1340px;
+    margin: auto;
+}
+
+#logo
+{
+    background-color: rgb(97, 98, 156);
+}
+
+#nav li
+{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#nav a
+{
+    text-decoration: none;
+}
+
+#inscript
+{
+    color: #0065fc;
+}
+
+#inscript a:visited
+{
+    text-decoration:none;
+    color: #0065fc;
+}
+
+#head_search
+{
+    background-color: rgb(151, 91, 151);
+    max-width: 1340px;
+    margin: auto;
+}
+
+#page_content
+{
+    display: flex;
+    flex-direction: row;
+    max-width: 1340px;
+    margin: auto;
+}
+
+#heberg
+{
+    background-color: #f2f2f2;
+    width: 880px;
+    min-height: 625px;
+    margin: 0 auto;
+    margin-right: 20px;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+
+#activit
+{
+    background-color: #f2f2f2;
+    width: 420px;
+    min-height: 625px;
+    margin: 0 auto;
+    margin-left: 20px;
+    border: 0px solid black;
+    border-radius: 20px;
+}
