@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('fonts/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*
+{
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+}
+
 header
 {
     display: flex;
@@ -62,7 +75,68 @@ header
     border-radius: 20px;
 }
 
-#activit
+#heberg h1
+{
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+#bottomheberg h2
+{
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 43px;
+}
+
+#samplehotel
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.viewhotel i
+{
+    color: #0065fc;
+}
+
+.viewhotel
+{
+    width: 247px;
+    height: 200px;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.viewhotel img
+{
+    width: 235px;
+    height: 115px;
+    margin: 5px 6px;
+    border: 0px solid black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.viewhotel h2
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.viewhoteltext
+{
+    margin-left: 15px;
+    position: relative;
+    bottom: 14px;
+    font-size: 0.8em;
+}
+
+#popul
 {
     background-color: #f2f2f2;
     width: 420px;
