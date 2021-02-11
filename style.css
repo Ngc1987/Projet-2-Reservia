@@ -22,7 +22,7 @@ header
 
 #logo
 {
-    background-color: rgb(97, 98, 156);
+    background-color: rgba(42, 45, 235, 0.459);
 }
 
 #nav li
@@ -51,8 +51,9 @@ header
 
 #head_search
 {
-    background-color: rgb(151, 91, 151);
+    background-color: rgba(248, 76, 248, 0.452);
     max-width: 1340px;
+    height: 300px;
     margin: auto;
 }
 
@@ -62,6 +63,7 @@ header
     flex-direction: row;
     max-width: 1340px;
     margin: auto;
+    margin-top: 30px;
 }
 
 #heberg
@@ -116,7 +118,7 @@ header
 {
     width: 235px;
     height: 115px;
-    margin: 5px 6px;
+    margin: 6px 6px;
     border: 0px solid black;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -145,4 +147,93 @@ header
     margin-left: 20px;
     border: 0px solid black;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#entetepopul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#entetepopul h1
+{
+    margin-left: 36px;
+    margin-top: 45px;
+}
+
+#entetepopul i
+{
+    margin-right: 36px;
+    margin-top: 27px;
+    font-size: 1.5em;
+}
+
+.viewpopul
+{
+    width: 343px;
+    height: 145px;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 36px;
+    display: flex;
+    flex-direction: row;
+}
+
+.viewpopul img
+{
+    width: 127px;
+    height: 134px;
+    margin: 6px 6px;
+    border: 0px solid black;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#samplepopul
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.viewpopultext
+{
+    margin-left: 21px;
+    margin-top: 15px;
+    font-size: 0.8em;
+}
+
+.viewpopultext h2
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.viewpopul i
+{
+    color: #0065fc;
+    margin-top: 40px;
+}
+
+.viewpopultext2
+{
+    margin-left: 21px;
+    margin-top: 15px;
+    font-size: 0.8em;
+}
+
+.viewpopultext2 h2
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.viewpopultext2 i
+{
+    margin-bottom: 30px !important;
 }
