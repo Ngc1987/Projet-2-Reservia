@@ -86,6 +86,7 @@ header
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #gpsbutton
@@ -131,25 +132,14 @@ button
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 30px;
 }
 
 #filterline h2
 {
-    margin-left: 10px;
-    margin-top: 23px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 15px;
     font-size: 1.2em;
-    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-}
-
-#filterline p
-{
-    margin-left: 40px;
     font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
 }
 
@@ -158,32 +148,7 @@ button
 {
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
-    margin-top: 10px;
-}
-
-#filterfamily
-{
-    display: flex;
-    flex-direction: row;
-    margin-left: 170px;
-    margin-top: 10px;
-}
-
-#filterlove
-{
-    display: flex;
-    flex-direction: row;
-    margin-left: 130px;
-    margin-top: 10px;
-}
-
-#filterpets
-{
-    display: flex;
-    flex-direction: row;
-    margin-left: 160px;
-    margin-top: 10px;
+    margin-left: px;
 }
 
 #blocmoney
@@ -191,12 +156,49 @@ button
     height: 50px;
     width: 190px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     border: 1px solid #f2f2f2;
     border-radius: 25px;
-    position: absolute;
     font-size: 1.2em;
+    margin-left: 25px;
+}
+
+#filtermoney i
+{
+    color: #0065fc;
+    width: 50px;
+    height: 50px;
+    background-color: #deebff;
+    border: 1px solid #deebff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#moneytext
+{
+    height: 50px;
+    width: 190px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#moneytext p
+{   
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+}
+
+#filterfamily
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: px;
 }
 
 #blocfamily
@@ -204,13 +206,50 @@ button
     height: 50px;
     width: 150px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     border: 1px solid #f2f2f2;
     border-radius: 25px;
-    margin-right: 30px;
-    position: absolute;
     font-size: 1.2em;
+    margin-left: 25px;
+}
+
+#filterfamily i
+{
+    color: #0065fc;
+    width: 50px;
+    height: 50px;
+    background-color: #deebff;
+    border: 1px solid #deebff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#familytext
+{
+    height: 50px;
+    width: 190px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
+}
+
+#familytext p
+{   
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+}
+
+#filterlove
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: px;
 }
 
 #bloclove
@@ -218,13 +257,50 @@ button
     height: 50px;
     width: 180px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     border: 1px solid #f2f2f2;
     border-radius: 25px;
-    margin-right: 30px;
-    position: absolute;
     font-size: 1.2em;
+    margin-left: 25px;
+}
+
+#filterlove i
+{
+    color: #0065fc;
+    width: 50px;
+    height: 50px;
+    background-color: #deebff;
+    border: 1px solid #deebff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lovetext
+{
+    height: 50px;
+    width: 190px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
+}
+
+#lovetext p
+{   
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+}
+
+#filterpets
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: px;
 }
 
 #blocpets
@@ -232,43 +308,44 @@ button
     height: 50px;
     width: 240px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     border: 1px solid #f2f2f2;
     border-radius: 25px;
-    margin-right: 30px;
-    position: absolute;
     font-size: 1.2em;
+    margin-left: 25px;
 }
 
-.filterpic
+#filterpets i
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #0065fc;
-    font-size: 1.3em;
     width: 50px;
     height: 50px;
     background-color: #deebff;
     border: 1px solid #deebff;
     border-radius: 25px;
-}
-
-.filtername
-{
-    height: 50px;
-    width: 190px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #f2f2f2;
-    border-radius: 25px;
-    margin-right: 30px;
-    position: absolute;
-    font-size: 1.2em;
 }
 
+#petstext
+{
+    height: 50px;
+    width: 190px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
+}
+
+#petstext p
+{   
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+}
 
 #info
 {
