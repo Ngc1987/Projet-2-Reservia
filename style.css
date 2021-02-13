@@ -82,11 +82,17 @@ header
     margin: auto;
 }
 
+.semibold
+{
+    font-weight: bold;
+}
+
 #barsearch
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 #gpsbutton
@@ -133,12 +139,12 @@ button
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #filterline h2
 {
-    margin-top: 15px;
+    margin-top: 25px;
     font-size: 1.2em;
     font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
 }
@@ -148,33 +154,35 @@ button
 {
     display: flex;
     flex-direction: row;
-    margin-left: px;
+    justify-content: center;
 }
 
 #blocmoney
 {
-    height: 50px;
+    height: 51px;
     width: 190px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    border: 1px solid #f2f2f2;
-    border-radius: 25px;
+    border: 2px solid #f2f2f2;
+    border-radius: 40px;
     font-size: 1.2em;
     margin-left: 25px;
+    margin-top: 10px;
 }
 
 #filtermoney i
 {
     color: #0065fc;
-    width: 50px;
-    height: 50px;
+    width: 51px;
+    height: 51px;
     background-color: #deebff;
     border: 1px solid #deebff;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 #moneytext
@@ -203,22 +211,23 @@ button
 
 #blocfamily
 {
-    height: 50px;
+    height: 51px;
     width: 150px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    border: 1px solid #f2f2f2;
-    border-radius: 25px;
+    border: 2px solid #f2f2f2;
+    border-radius: 40px;
     font-size: 1.2em;
     margin-left: 25px;
+    margin-top: 10px;
 }
 
 #filterfamily i
 {
     color: #0065fc;
-    width: 50px;
-    height: 50px;
+    width: 51px;
+    height: 51px;
     background-color: #deebff;
     border: 1px solid #deebff;
     border-radius: 25px;
@@ -254,22 +263,23 @@ button
 
 #bloclove
 {
-    height: 50px;
+    height: 51px;
     width: 180px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    border: 1px solid #f2f2f2;
-    border-radius: 25px;
+    border: 2px solid #f2f2f2;
+    border-radius: 40px;
     font-size: 1.2em;
     margin-left: 25px;
+    margin-top: 10px;
 }
 
 #filterlove i
 {
     color: #0065fc;
-    width: 50px;
-    height: 50px;
+    width: 51px;
+    height: 51px;
     background-color: #deebff;
     border: 1px solid #deebff;
     border-radius: 25px;
@@ -305,22 +315,23 @@ button
 
 #blocpets
 {
-    height: 50px;
+    height: 51px;
     width: 240px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    border: 1px solid #f2f2f2;
-    border-radius: 25px;
+    border: 2px solid #f2f2f2;
+    border-radius: 40px;
     font-size: 1.2em;
     margin-left: 25px;
+    margin-top: 10px;
 }
 
 #filterpets i
 {
     color: #0065fc;
-    width: 50px;
-    height: 50px;
+    width: 51px;
+    height: 51px;
     background-color: #deebff;
     border: 1px solid #deebff;
     border-radius: 25px;
@@ -373,12 +384,13 @@ button
     margin-left: 10px;
 }
 
-#page_content
+#heberg_and_populs
 {
     display: flex;
     flex-direction: row;
     max-width: 1340px;
     margin: auto;   
+    margin-top: -20px;
 }
 
 #heberg
@@ -545,3 +557,204 @@ button
     margin-top: 40px;
 }
 
+.minihotel
+{
+    object-fit: cover;
+}
+
+#activities
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 1340px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#activsamples
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#vieuxport
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 445px;
+    border: 0px solid black;
+    box-shadow: 0px 5px 10px #dad8d8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#imgvieuxport
+{
+    width: 300px;
+    height: 389px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.activtext
+{
+    display: flex;
+    align-items: center;
+}
+
+.activtext p
+{
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+
+.sampactiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#pomegues
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 235px;
+    border: 0px solid black;
+    box-shadow: 0px 5px 10px #dad8d8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#imgpomegues
+{
+    width: 300px;
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+#frioul
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 163px;
+    border: 0px solid black;
+    box-shadow: 0px 5px 10px #dad8d8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#imgfrioul
+{
+    width: 300px;
+    height: 107px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+#calanques
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 445px;
+    border: 0px solid black;
+    box-shadow: 0px 5px 10px #dad8d8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#imgcalanques
+{
+    width: 300px;
+    height: 389px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+#notredamegarde
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 195px;
+    border: 0px solid black;
+    box-shadow: 0px 5px 10px #dad8d8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#imgnotredamegarde
+{
+    width: 300px;
+    height: 138px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+#parclongchamp
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 210px;
+    border: 0px solid black;
+    box-shadow: 0px 5px 10px #dad8d8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#imgparclongchamp
+{
+    width: 300px;
+    height: 153px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+}
+
+footer div
+{
+    width: 446px;
+    margin-top: 45px;
+}
+
+footer h3
+{
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+}
