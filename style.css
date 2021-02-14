@@ -428,12 +428,16 @@ button
     font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
 }
 
+#bottomheberg
+{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
 #bottomheberg h2
 {
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 20px;
-    font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
+    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 }
 
 #samplehotel
@@ -498,15 +502,15 @@ button
 #popul
 {
     background-color: #f2f2f2;
-    width: 420px;
-    min-height: 625px;
+    min-width: 420px;
+    height: 625px;
     margin: 0 auto;
     margin-left: 20px;
     border: 0px solid black;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #entetepopul
@@ -514,23 +518,33 @@ button
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    font-size: 1em;
+    align-items: flex-end;
+    height: 30px;
+    margin-top: 5px;
 }
 
 
 #entetepopul h1
 {
-    margin-left: 36px;
-    width: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    width: 230px;
+    margin-left: 38px;
+    margin-top: 35px;
     font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
 }
 
 #logopopul
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
     font-size: 2em;
     margin-right: 35px;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .starpopul
