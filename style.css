@@ -170,9 +170,17 @@ button
     border-bottom-right-radius: 15px;
     position: absolute;
     border: none;
+    
+}
+
+button p
+{
     font-size: 1.2em;
     font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
+    color: white;
 }
+
+
 
 #filterline
 {
@@ -895,8 +903,43 @@ footer h3
 }
 
 
+
+
 @media all and (max-device-width:480px)
 {
+    #barsearch
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #search
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    
+    
+    button
+    {
+        width: 50px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        position: relative;
+    }
+    
+    button p
+    {
+        display: none;
+    }
+
+    button i
+    {
+        font-size: 1.4em;
+    }
+
     #heberg_and_populs
     {
         flex-direction: column-reverse;
@@ -939,7 +982,7 @@ footer h3
     {
         width: 420px;
         margin-top: 20px;
-        margin-left: 25px;
+        margin-left: 50px;
     }
 
     #activities h2
