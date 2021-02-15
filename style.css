@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'ralewaysemibold';
-    src: url('raleway-semibold-webfont.woff2') format('woff2'),
-         url('raleway-semibold-webfont.woff') format('woff');
+    src: url('fonts/raleway-semibold-webfont.woff2') format('woff2'),
+         url('fonts/raleway-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -77,14 +77,39 @@ header
 #nav a
 {
     text-decoration: none;
+    bor
 }
 
-#inscript
+#heberglink
 {
+    color: #0065fc;
+    font-weight: bold;
+}
+
+#heberglink a:visited
+{
+    text-decoration:none;
     color: #0065fc;
 }
 
-#inscript a:visited
+#activlink
+{
+    color: black;
+}
+
+#activlink a:visited
+{
+    text-decoration:none;
+    color: black;
+}
+
+#inscriptlink
+{
+    color: #0065fc;
+    font-weight: bold;
+}
+
+#inscriptlink a:visited
 {
     text-decoration:none;
     color: #0065fc;
@@ -155,6 +180,13 @@ button
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 20px;
+}
+
+#blocfilters
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #filterline h2
@@ -435,7 +467,7 @@ button
     justify-content: flex-start;
     align-items: flex-start;
     background-color: #f2f2f2;
-    width: 880px;
+    max-width: 880px;
     min-height: 625px;
     margin: 0 auto;
     margin-right: 20px;
@@ -491,6 +523,7 @@ button
     border: 0px solid black;
     border-radius: 20px;
     margin-top: 30px;
+    box-shadow: 0px 2px 10px #dad8d8;
 }
 
 .viewhotel img
@@ -530,7 +563,6 @@ button
     min-width: 420px;
     height: 625px;
     margin: 0 auto;
-    margin-left: 20px;
     border: 0px solid black;
     border-radius: 20px;
     display: flex;
@@ -589,6 +621,7 @@ button
     margin-top: 30px;
     display: flex;
     flex-direction: row;
+    box-shadow: 0px 2px 10px #dad8d8;
 }
 
 .viewpopul img
@@ -848,7 +881,7 @@ footer
     min-height: 220px;
     margin: 0 auto;
     margin-top: 50px;
-    width: 1340px;
+    max-width: 1340px;
 }
 
 .footbloc
@@ -859,4 +892,147 @@ footer
 footer h3
 {
     font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
+}
+
+
+@media all and (max-device-width:480px)
+{
+    #heberg_and_populs
+    {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #samplehotel
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 420px;
+    }
+
+    #heberg
+    {
+        background-color: white;
+    }
+
+    .viewhotel
+    {
+        width: 332px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .viewhotel img
+    {
+        width: 320px;
+    }
+
+    #footpage
+    {
+        flex-direction: column;
+        width: 420px;
+        margin-top: 50px;
+    }
+
+    .footbloc
+    {
+        width: 420px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    #activities h2
+    {
+        margin-left: 45px;
+    }
+    
+    #heberg h1
+    {
+        margin-left: 40px;
+    }
+
+    #bottomheberg h2
+    {
+        margin-left: 20px;
+    }
+
+    #activsamples
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 420px;
+    }
+
+    #vieuxport
+    {
+        height: 190px;
+        width: 332px;
+    }
+
+    #imgvieuxport
+    {
+        width: 332px;
+        height: 132px;
+    }
+
+    #pomegues
+    {
+        height: 190px;
+        width: 332px;
+    }
+
+    #imgpomegues
+    {
+        width: 332px;
+        height: 132px;
+    }
+
+    #frioul
+    {
+        height: 190px;
+        width: 332px;
+    }
+
+    #imgfrioul
+    {
+        width: 332px;
+        height: 132px;
+    }
+
+    #calanques
+    {
+        height: 190px;
+        width: 332px;
+    }
+
+    #imgcalanques
+    {
+        width: 332px;
+        height: 132px;
+    }
+
+    #notredamegarde
+    {
+        height: 190px;
+        width: 332px;
+    }
+
+    #imgnotredamegarde
+    {
+        width: 332px;
+        height: 132px;
+    }
+
+    #parclongchamp
+    {
+        height: 190px;
+        width: 332px;
+    }
+
+    #imgparclongchamp
+    {
+        width: 332px;
+        height: 132px;
+    }
 }
