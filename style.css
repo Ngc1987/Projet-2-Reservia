@@ -47,32 +47,11 @@ header
     margin: auto;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
 .blacklink
 {
     text-decoration: none;
     color: black;
 }
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
 #blocpage
 {
@@ -83,21 +62,6 @@ header
     align-items: center;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 0b94709... Start animations
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 0b94709... Start animations
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 0b94709... Start animations
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 #logo
 {
 }
@@ -219,37 +183,12 @@ button
     border-radius: 40px;
     font-size: 1.2em;
     margin-left: 25px;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
     margin-top: 10px;
 }
 
 #blocmoney:hover
 {
     box-shadow: 0px 0px 15px #6e7a8a;
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-<<<<<<< HEAD
-=======
-    margin-top: 10px;
->>>>>>> parent of 0b94709... Start animations
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
 
 #filtermoney i
@@ -301,37 +240,12 @@ button
     border-radius: 40px;
     font-size: 1.2em;
     margin-left: 25px;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
     margin-top: 10px;
 }
 
 #blocfamily:hover
 {
     box-shadow: 0px 0px 15px #6e7a8a;
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-<<<<<<< HEAD
-=======
-    margin-top: 10px;
->>>>>>> parent of 0b94709... Start animations
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
 
 #filterfamily i
@@ -383,37 +297,12 @@ button
     border-radius: 40px;
     font-size: 1.2em;
     margin-left: 25px;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
     margin-top: 10px;
 }
 
 #bloclove:hover
 {
     box-shadow: 0px 0px 15px #6e7a8a;
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-<<<<<<< HEAD
-=======
-    margin-top: 10px;
->>>>>>> parent of 0b94709... Start animations
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
 
 #filterlove i
@@ -465,37 +354,12 @@ button
     border-radius: 40px;
     font-size: 1.2em;
     margin-left: 25px;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
     margin-top: 10px;
 }
 
 #blocpets:hover
 {
     box-shadow: 0px 0px 15px #6e7a8a;
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-<<<<<<< HEAD
-=======
-    margin-top: 10px;
->>>>>>> parent of 0b94709... Start animations
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
 
 #filterpets i
@@ -582,106 +446,23 @@ button
 #heberg h1
 {
     font-weight: bolder;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-<<<<<<< HEAD
-    margin-left: 40px;
-    margin-top: 45px;
-    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-=======
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     margin-left: 20px;
     position: relative;
     top: 25px;
     left: 5px;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
-=======
-    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
->>>>>>> Stashed changes
-=======
-    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
->>>>>>> Stashed changes
-=======
-    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
->>>>>>> Stashed changes
-=======
-    font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
->>>>>>> Stashed changes
 }
 
 #bottomheberg
 {
     margin-top: 20px;
     margin-left: 25px;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> parent of 0b94709... Start animations
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 0b94709... Start animations
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 0b94709... Start animations
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
 
 #bottomheberg h2
 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
     font-size: 1.2em;
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-<<<<<<< HEAD
-    font-weight: bold;
-    margin-left: 40px;
-    margin-top: 43px;
-    font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
-=======
-    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
->>>>>>> parent of 0b94709... Start animations
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
-    font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
->>>>>>> Stashed changes
 }
 
 #samplehotel
@@ -781,7 +562,6 @@ button
 }
 
 #logopopul
-<<<<<<< Updated upstream
 {
     display: flex;
     flex-direction: row;
@@ -794,20 +574,6 @@ button
 
 .starpopul
 {
-=======
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-    font-size: 2em;
-    margin-right: 35px;
-    margin-top: 5px;
-}
-
-.starpopul
-{
->>>>>>> Stashed changes
     margin-bottom: 12px;
     margin-left: 16px;
     font-size: 0.75em;
@@ -871,24 +637,6 @@ button
     color: #0065fc;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 .greystar
 {
     color: #d9d9d9;
@@ -1110,28 +858,5 @@ footer
 
 footer h3
 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
 }
-=======
-    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-}
->>>>>>> parent of 0b94709... Start animations
->>>>>>> Stashed changes
-=======
-    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-}
->>>>>>> parent of 0b94709... Start animations
->>>>>>> Stashed changes
-=======
-    font-family: 'ralewaybold', Arial, Helvetica, sans-serif;
-}
->>>>>>> parent of 0b94709... Start animations
->>>>>>> Stashed changes
-=======
-    font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
-}
->>>>>>> Stashed changes
