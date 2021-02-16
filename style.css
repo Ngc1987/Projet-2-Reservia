@@ -33,23 +33,74 @@
     font-style: normal;
 }
 
+
+body
+{
+    min-width: 350px;
+}
+
 *
 {
     font-family: 'ralewayregular', Arial, Helvetica, sans-serif;
 }
 
+
 header
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 1340px;
+    margin: auto;
+    position: relative;
+}
+
+header a
+{
+    text-decoration: none;
+}
+
+#logo
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1340px;
-    margin: auto;
+}
+
+#logo div
+{
+    margin-top: 12px;
+}
+
+#nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    right: 4.2cm;
+    top: 12px;
 }
 
 .blacklink
 {
     text-decoration: none;
+    color: black;
+}
+
+#nav a:hover
+{
+    border-top: 3px solid #0065fc;
+}
+
+#heberglink
+{
+    color: #0065fc;
+    font-weight: bold;
+}
+
+#activlink
+{
+    margin-left: 35%;
     color: black;
 }
 
@@ -62,39 +113,12 @@ header
     align-items: center;
 }
 
-#logo
-{
-}
 
-#nav li
-{
-    list-style-type: none;
-    display: inline;
-    margin-right: 20px;
-    text-decoration: none;
-}
-
-#nav a
-{
-    text-decoration: none;
-    bor
-}
-
-#heberglink
-{
-    color: #0065fc;
-    font-weight: bold;
-}
 
 #heberglink a:visited
 {
     text-decoration:none;
     color: #0065fc;
-}
-
-#activlink
-{
-    color: black;
 }
 
 #activlink a:visited
@@ -144,7 +168,6 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0px solid #f2f2f2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 
@@ -170,15 +193,22 @@ button
     border-bottom-right-radius: 15px;
     position: absolute;
     border: none;
-    
-}
-
-button p
-{
     font-size: 1.2em;
     font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
     color: white;
 }
+
+#rech
+{
+    font-size: 0.9em;
+    font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
+    color: white; 
+}
+
+#loupe
+    {
+        display: none;
+    }
 
 
 
@@ -237,7 +267,6 @@ button p
     width: 51px;
     height: 51px;
     background-color: #deebff;
-    border: 1px solid #deebff;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -266,7 +295,6 @@ button p
 {
     display: flex;
     flex-direction: row;
-    margin-left: px;
 }
 
 #blocfamily
@@ -294,7 +322,6 @@ button p
     width: 51px;
     height: 51px;
     background-color: #deebff;
-    border: 1px solid #deebff;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -323,7 +350,6 @@ button p
 {
     display: flex;
     flex-direction: row;
-    margin-left: px;
 }
 
 #bloclove
@@ -351,7 +377,6 @@ button p
     width: 51px;
     height: 51px;
     background-color: #deebff;
-    border: 1px solid #deebff;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -380,7 +405,6 @@ button p
 {
     display: flex;
     flex-direction: row;
-    margin-left: px;
 }
 
 #blocpets
@@ -408,7 +432,6 @@ button p
     width: 51px;
     height: 51px;
     background-color: #deebff;
-    border: 1px solid #deebff;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -568,7 +591,7 @@ button p
 #popul
 {
     background-color: #f2f2f2;
-    min-width: 420px;
+    min-width: 377.5px;
     height: 625px;
     margin: 0 auto;
     border: 0px solid black;
@@ -587,7 +610,6 @@ button p
     height: 30px;
     margin-top: 5px;
 }
-
 
 #entetepopul h1
 {
@@ -904,12 +926,34 @@ footer h3
 
 
 
-
-@media all and (max-device-width:480px)
+@media all and (max-width:480px)
 {
+    header
+    {
+        justify-content: space-between;
+    }
+    
+    #nav
+    {
+        position: initial;
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+    #nav a:hover
+    {
+    border-bottom: 3px solid #f2f2f2;
+    }
+
+    #search1
+    {
+        margin-left: 20px;
+    }
+
     #barsearch
     {
         width: 100%;
+        margin-left: 20px;
         display: flex;
         flex-wrap: nowrap;
     }
@@ -919,6 +963,28 @@ footer h3
         display: flex;
         flex-wrap: nowrap;
         width: 100%;
+    }
+
+    #loupe
+    {
+        display: initial;
+        font-size: 0.9em;
+    }
+
+    #rech
+    {
+        display: none;
+    }
+
+    #filterline h2
+    {
+        margin-left: 20px;
+    }
+
+
+    #info
+    {
+        margin-left: 30px;
     }
     
     
@@ -969,6 +1035,16 @@ footer h3
     .viewhotel img
     {
         width: 320px;
+    }
+
+    .viewpopul
+    {
+        width: 332px;
+    }
+
+    #heberg_and_populs
+    {
+        align-items: center;
     }
 
     #footpage
