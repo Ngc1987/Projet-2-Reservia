@@ -33,18 +33,52 @@
     font-style: normal;
 }
 
+
+body
+{
+    min-width: 350px;
+}
+
 *
 {
     font-family: 'ralewayregular', Arial, Helvetica, sans-serif;
 }
 
+
 header
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 1340px;
+    margin: auto;
+    position: relative;
+}
+
+header a
+{
+    text-decoration: none;
+}
+
+#logo
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1340px;
-    margin: auto;
+}
+
+#logo div
+{
+    margin-top: 6px;
+}
+
+#nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    right: 4.2cm;
+    top: -8px;
 }
 
 .blacklink
@@ -53,35 +87,17 @@ header
     color: black;
 }
 
-#blocpage
-{
-    max-width: 1340px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#logo
-{
-}
-
-#nav li
-{
-    list-style-type: none;
-    display: inline;
-    margin-right: 20px;
-    text-decoration: none;
-}
-
-#nav a
-{
-    text-decoration: none;
-    bor
-}
 
 #heberglink
 {
+    color: black;
+    line-height: 3;
+    vertical-align: center;
+}
+
+#heberglink:hover
+{
+    border-top: 3px solid #0065fc;
     color: #0065fc;
     font-weight: bold;
 }
@@ -89,25 +105,38 @@ header
 #heberglink a:visited
 {
     text-decoration:none;
+    color: black;
+}
+
+#heberglink a:hover
+{
     color: #0065fc;
 }
 
 #activlink
 {
+    margin-left: 35%;
     color: black;
+    line-height: 3;
+    vertical-align: center;
 }
 
-#activlink a:visited
+#activlink:hover
 {
-    text-decoration:none;
-    color: black;
+    border-top: 3px solid #0065fc;
+    color: #0065fc;
+    font-weight: bold;
 }
+
+
 
 #inscriptlink
 {
     color: #0065fc;
     font-weight: bold;
 }
+
+
 
 #inscriptlink a:visited
 {
@@ -144,7 +173,6 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0px solid #f2f2f2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 
@@ -170,15 +198,22 @@ button
     border-bottom-right-radius: 15px;
     position: absolute;
     border: none;
-    
-}
-
-button p
-{
     font-size: 1.2em;
     font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
     color: white;
 }
+
+#rech
+{
+    font-size: 0.9em;
+    font-family: 'ralewaysemibold', Arial, Helvetica, sans-serif;
+    color: white; 
+}
+
+#loupe
+    {
+        display: none;
+    }
 
 
 
@@ -237,7 +272,6 @@ button p
     width: 51px;
     height: 51px;
     background-color: #deebff;
-    border: 1px solid #deebff;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -266,7 +300,6 @@ button p
 {
     display: flex;
     flex-direction: row;
-    margin-left: px;
 }
 
 #blocfamily
@@ -294,7 +327,6 @@ button p
     width: 51px;
     height: 51px;
     background-color: #deebff;
-    border: 1px solid #deebff;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -323,7 +355,6 @@ button p
 {
     display: flex;
     flex-direction: row;
-    margin-left: px;
 }
 
 #bloclove
@@ -351,7 +382,6 @@ button p
     width: 51px;
     height: 51px;
     background-color: #deebff;
-    border: 1px solid #deebff;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -380,7 +410,6 @@ button p
 {
     display: flex;
     flex-direction: row;
-    margin-left: px;
 }
 
 #blocpets
@@ -408,7 +437,6 @@ button p
     width: 51px;
     height: 51px;
     background-color: #deebff;
-    border: 1px solid #deebff;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -463,9 +491,9 @@ button p
 {
     display: flex;
     flex-direction: row;
-    max-width: 1340px;
+    justify-content: space-between;
+    max-width: 1400px;
     margin: auto;   
-    margin-top: 0px;
 }
 
 #heberg
@@ -475,7 +503,7 @@ button p
     justify-content: flex-start;
     align-items: flex-start;
     background-color: #f2f2f2;
-    max-width: 880px;
+    width: 880px;
     min-height: 625px;
     margin: 0 auto;
     margin-right: 20px;
@@ -568,7 +596,7 @@ button p
 #popul
 {
     background-color: #f2f2f2;
-    min-width: 420px;
+    width: 415px;
     height: 625px;
     margin: 0 auto;
     border: 0px solid black;
@@ -587,7 +615,6 @@ button p
     height: 30px;
     margin-top: 5px;
 }
-
 
 #entetepopul h1
 {
@@ -904,14 +931,66 @@ footer h3
 
 
 
-
-@media all and (max-device-width:480px)
+@media all and (max-width:479px)
 {
+    header
+    {
+        justify-content: space-between;
+    }
+
+    border
+    {
+        display: contents;
+    }
+
+    #logo
+    {
+        margin-left: 15px;
+    }
+
+    #logo div
+    {
+        margin-top: 17px;
+        margin-right: 15px;
+    }
+
+    #nav
+    {
+        position: initial;
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+    #nav a:hover
+    {
+    border-bottom: 3px solid #f2f2f2;
+    }
+
+    #heberglink:hover
+    {
+    border-bottom: 3px solid #0065fc;
+    border-top: none;
+    color: #0065fc;
+    font-weight: bold;
+    }
+
+    #head_search
+    {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #search1
+    {
+        margin-left: 20px;
+    }
+
     #barsearch
     {
-        width: 100%;
-        display: flex;
         flex-wrap: nowrap;
+        align-self: flex-start;
+        margin-left: 15px;
     }
 
     #search
@@ -919,6 +998,47 @@ footer h3
         display: flex;
         flex-wrap: nowrap;
         width: 100%;
+    }
+
+    #loupe
+    {
+        display: initial;
+        font-size: 0.9em;
+    }
+
+    #rech
+    {
+        display: none;
+    }
+
+    #filterline
+    {
+        flex-direction: column;
+    }
+
+    #filterline h2
+    {
+        margin-left: 20px;
+    }
+
+    #blocfilters
+    {
+        flex-direction: column;
+        margin-left: -10px;
+    }
+
+    #info
+    {
+        margin-left: 10px;
+        align-items: flex-start;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    #info i
+    {
+        margin-top: 10px;
+        margin-left: 10px;
     }
     
     
@@ -940,23 +1060,50 @@ footer h3
         font-size: 1.4em;
     }
 
+    
+
+    .semibold
+    {
+        overflow-wrap: normal;
+    }
+
+
     #heberg_and_populs
     {
         flex-direction: column-reverse;
-        justify-content: center;
         align-items: center;
+    }
+
+    #entetepopul h1
+    {
+        margin-left: 15px;
+    }
+
+    #logopopul
+    {
+        margin-right: 20px;
     }
 
     #samplehotel
     {
         flex-direction: column;
         align-items: center;
-        width: 420px;
     }
 
     #heberg
     {
         background-color: white;
+        width: max-content;
+    }
+
+    #heberg h1
+    {
+        margin-left: 15px;
+    }
+
+    #popul
+    {
+        width: max-content;
     }
 
     .viewhotel
@@ -964,6 +1111,8 @@ footer h3
         width: 332px;
         flex-direction: column;
         align-items: center;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .viewhotel img
@@ -971,40 +1120,43 @@ footer h3
         width: 320px;
     }
 
+    .viewpopul
+    {
+        width: 332px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
     #footpage
     {
         flex-direction: column;
-        width: 420px;
+        width: auto;
         margin-top: 50px;
+        align-items: flex-start;
     }
 
     .footbloc
     {
-        width: 420px;
+        width: auto;
         margin-top: 20px;
-        margin-left: 50px;
+        margin-left: 25px;
     }
 
-    #activities h2
+    #activities
     {
-        margin-left: 45px;
-    }
-    
-    #heberg h1
-    {
-        margin-left: 40px;
+        width: max-content;
+        margin-top: 20px;
     }
 
-    #bottomheberg h2
+    #bottomheberg
     {
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     #activsamples
     {
         flex-direction: column;
         align-items: center;
-        width: 420px;
     }
 
     #vieuxport
@@ -1076,6 +1228,176 @@ footer h3
     #imgparclongchamp
     {
         width: 332px;
+        height: 132px;
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 1024px)
+{
+    #head_search
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #search1 p
+    {
+        margin-left: 150px;
+    }
+
+    #barsearch
+    {
+        margin-right: 160px;
+    }
+
+    #filterline
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #heberg_and_populs
+    {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #heberg
+    {
+        width: 100%;
+        margin-right: 0px;
+        margin: 0 auto;
+    }
+
+    #popul
+    {
+        height: fit-content;
+        width:100%;
+        background-color: white;
+        margin: 0 auto;
+    }
+
+    #samplepopul
+    {
+        max-width: 1000px;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .viewpopul
+    {
+        flex-direction: column;
+        width: 247px;
+        height: 250px;
+    }
+
+    .viewpopul img
+    {
+    width: 235px;
+    height: 115px;
+    margin: 6px 6px;
+    border: 0px solid black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+    }
+
+    .positiontext
+    {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .starpopul
+    {
+        margin-top: 25px;
+    }
+
+    #activities
+    {
+        align-items: center;
+    }
+
+    #activsamples
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #vieuxport
+    {
+        height: 190px;
+        width: 500px;
+    }
+
+    #imgvieuxport
+    {
+        width: 500px;
+        height: 132px;
+    }
+
+    #pomegues
+    {
+        height: 190px;
+        width: 500px;
+    }
+
+    #imgpomegues
+    {
+        width: 500px;
+        height: 132px;
+    }
+
+    #frioul
+    {
+        height: 190px;
+        width: 500px;
+    }
+
+    #imgfrioul
+    {
+        width: 500px;
+        height: 132px;
+    }
+
+    #calanques
+    {
+        height: 190px;
+        width: 500px;
+    }
+
+    #imgcalanques
+    {
+        width: 500px;
+        height: 132px;
+    }
+
+    #notredamegarde
+    {
+        height: 190px;
+        width: 500px;
+    }
+
+    #imgnotredamegarde
+    {
+        width: 500px;
+        height: 132px;
+    }
+
+    #parclongchamp
+    {
+        height: 190px;
+        width: 500px;
+    }
+
+    #imgparclongchamp
+    {
+        width: 500px;
         height: 132px;
     }
 }
