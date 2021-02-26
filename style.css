@@ -525,7 +525,7 @@ button
 #heberg h1
 {
     font-weight: bolder;
-    margin-left: 20px;
+    margin-left: 40px;
     position: relative;
     top: 25px;
     left: 5px;
@@ -535,7 +535,7 @@ button
 #bottomheberg
 {
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 #bottomheberg h2
@@ -549,7 +549,7 @@ button
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: stretch;
 }
 
